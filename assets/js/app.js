@@ -9,8 +9,9 @@ scrollUp.addEventListener("click", () => {
   });
 });
 
-//Nav Selection
 const burger = document.querySelector("#burger-menu");
+
+//Nav Selection
 const ul = document.querySelector("nav ul");
 const nav = document.querySelector("nav");
 

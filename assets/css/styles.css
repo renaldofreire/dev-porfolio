@@ -137,6 +137,22 @@ nav ul li {
   padding: 0.4rem;
 }
 
+.email-sent {
+  background-color: var(--bg-color);
+  padding: 1rem 6rem;
+}
+
+.email-sent h2 {
+  margin-bottom: var(--bottom-margin);
+  text-align: center;
+}
+
+.email-sent p {
+  line-height: var(--line-height);
+  padding: 0.4rem;
+  text-align: center;
+}
+
 .skills {
   max-width: 68.75rem;
   margin: auto;
@@ -219,16 +235,34 @@ nav ul li {
   bottom: 50%;
 }
 
+.socials-thanks {
+  position: fixed;
+  left: 0;
+  bottom: 5rem;
+  width: 100%;
+  text-align: center;
+  background-color: var(--bg-color);
+}
+
 .socicon {
   width: 2rem;
   height: 2rem;
 }
 
-footer {
+.footer-main {
   background-color: var(--bg-color);
   padding: 1.20rem;
   text-align: center;
   margin: 2rem 0 0;
+}
+
+.footer-thanks {
+  position: fixed;
+  left: 0;
+  bottom: 2rem;
+  width: 100%;
+  text-align: center;
+  background-color: var(--bg-color);
 }
 
 
@@ -303,7 +337,20 @@ footer {
   .more-about p {
     text-align: justify;
   }
-  
+
+  .email-sent {
+    margin-top: 2rem;
+    padding: 1rem 3.5rem;
+}
+
+.email-sent h2 {
+    text-align: center;
+}
+
+.email-sent p {
+    text-align: center;
+}
+
   .icon {
     width: 5.875rem;
     height: 5.25rem;
