@@ -1,5 +1,6 @@
-Create a portfolio
+# First portfolio
 
-## To do
--[]Finalizar pagina de agradecimento
-
+## Aim
+- Practicing basic concepts of HTML, CSS and JS;
+- Training use of git/github;
+- Basic structure.
